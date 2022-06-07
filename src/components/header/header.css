@@ -1,0 +1,76 @@
+.header {
+  background-color: #232f3e;
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 15;
+  position: sticky;
+  top: 0;
+  caret-color: transparent;
+}
+
+.header__image {
+  width: 100px;
+  margin-left: 25px;
+  object-fit: contain;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.header__nav {
+  display: flex;
+  margin-right: 30px;
+  color: white;
+}
+
+.header__option {
+  text-decoration: none;
+}
+
+.header__option span {
+  display: block;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.header__optionLineOne {
+  font-size: 10px;
+  color: darkgray;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+}
+
+.header__input input {
+  width: 300px;
+  height: 30px;
+  caret-color: black;
+}
+.header__input input:focus {
+  outline: none;
+  border-color: crimson;
+}
+.header__input {
+  display: flex;
+  align-items: center;
+}
+.search__icon {
+  background-color: #cd9042;
+  padding: 2px;
+  transform: scale(1.25);
+  margin-left: -1px;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.header__optionBasket .basket__icon {
+  color: white;
+}
+
+.basket_count {
+  margin-left: 6px;
+}

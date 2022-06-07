@@ -1,0 +1,36 @@
+.payment_container {
+  display: flex;
+  padding: 25px;
+  background-color: white;
+}
+
+.payment_left {
+  flex: 0.15;
+}
+.payment_right {
+  flex: 0.85;
+}
+.payment_total {
+  text-align: center;
+  margin: 10px;
+}
+
+.payment_form {
+  width: 20vw;
+}
+
+.payment_price {
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.pay {
+  background: linear-gradient(to bottom, #54a3d1, #24719b);
+  color: white;
+  font-weight: 500;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 30%;
+}

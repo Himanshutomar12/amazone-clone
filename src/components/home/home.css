@@ -1,0 +1,27 @@
+.home_image {
+  width: 100%;
+  /* display: grid; */
+  /* margin: 0 auto; */
+  z-index: -1;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  /* height: 450px; */
+  /* object-fit: contain; */
+  margin-bottom: -370px;
+}
+
+.link > a {
+  text-decoration: none;
+  border: 1px solid lightgray;
+  padding: 8px 20px;
+  color: white;
+  opacity: 0.2;
+  font-size: 13px;
+}
+.link {
+  position: relative;
+  top: -1.6rem;
+  left: 18rem;
+}
+.link > a:hover {
+  opacity: 0.5;
+}

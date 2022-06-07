@@ -1,0 +1,26 @@
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  max-height: fit-content;
+  padding: 15px;
+  background-color: white;
+}
+h5 {
+  padding-top: 10px;
+}
+.checkout_ad {
+  width: 100%;
+  object-fit: contain;
+}
+.checkout_left {
+  flex: 0.75;
+}
+.checkout_right {
+  flex: 0.25;
+  margin: 0 20px;
+  text-align: left;
+}
+.checkout_title {
+  padding-top: 15px;
+  border-bottom: 1px solid lightgray;
+}

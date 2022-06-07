@@ -1,0 +1,29 @@
+.subtotal {
+  border: 1px solid gray;
+  padding: 20px 25px 35px;
+  background-color: rgb(231, 230, 230);
+  caret-color: transparent;
+}
+
+.subtotal_button button {
+  border: 1px solid gray;
+  font-size: 14px;
+  padding: 1px 40px;
+  background: linear-gradient(to top, #febd69, wheat);
+  font-weight: 500;
+  border-radius: 5px;
+}
+.subtotal_button button:hover {
+  background: linear-gradient(to bottom, #febd69, #febd69);
+}
+.subtotal_button {
+  position: relative;
+  top: 16px;
+}
+.subtotal_checkbox {
+  margin-right: 5px;
+}
+.subtotal_gift span {
+  position: relative;
+  top: -1.6px;
+}
