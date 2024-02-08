@@ -15,6 +15,7 @@ function Payment() {
   const currentUser = useAuth();
   const [{ basket }, action] = useStateValue();
   const navigate = useNavigate();
+  const url = "https://amz-clone-backend.netlify.app/.netlify/functions/index";
 
   const [processing, setProcessing] = useState();
   const [error, setError] = useState(null);
@@ -36,7 +37,7 @@ function Payment() {
         try {
           const { id } = paymentMethod;
           const response = await axios.post(
-            "http://localhost:5001/clone-1aab8/us-central1/app/payments",
+            url + "/payments",
             {
               amount: getBasketTotal(basket) * 100,
               id,
